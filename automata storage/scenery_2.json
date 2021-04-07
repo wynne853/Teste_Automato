@@ -11,6 +11,14 @@
                 "transitions":[
                     {
                         "input":["a"],
+                        "positionNextState":0
+                    },
+                    {
+                        "input":["b"],
+                        "positionNextState":0
+                    },
+                    {
+                        "input":["b"],
                         "positionNextState":1
                     }
                 ]
