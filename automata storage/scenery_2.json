@@ -1,6 +1,6 @@
-{
+   {
     "alphabet":["a","b"],
-    "words":["aba","baa","cda"],
+    "words":["aba","baa","cda","abbabababababababab"],
     "automata":{
         "type":"n",
         "initialStatePosition":0,
@@ -27,14 +27,7 @@
                 "final":true,
                 "description":"q1",
                 "transitions":[
-                    {
-                        "input":["a"],
-                        "positionNextState":1
-                    },
-                    {
-                        "input":["b"],
-                        "positionNextState":1
-                    }
+                    
                 ]
             }
         ]

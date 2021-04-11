@@ -1,6 +1,6 @@
 O projeto está dividido em duas fases: 
     
-    Na primeira fase o projeto terá o model apenas como exemplificação e todo algorítmo da solução será testada utilizando o JSON.
+   (ATUAL) Na primeira fase o projeto terá o model apenas como exemplificação e todo algorítmo da solução será testada utilizando o JSON.
     
     Na segunda fase o projeto será alterado para um projeto REACT NATIVE e passará a usar o JSON como armazenamento e usará o model
 
