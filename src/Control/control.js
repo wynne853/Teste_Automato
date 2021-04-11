@@ -1,39 +1,6 @@
 let scenery = JSON.parse(`
-{
-    "alphabet":["a","b"],
-    "words":["aba","baa","cda","ababababaaaaaabbbbaaabbbbaabbb","ababababaaaaaabbbbaaabbbbaabbbc"],
-    "automata":{
-        "type":"d",
-        "initialStatePosition":0,
-        "states":[
-            {
-                "final":false,
-                "description":"q0",
-                "transitions":[
-                    {
-                        "input":["a"],
-                        "positionNextState":1
-                    }
-                ]
-            },
-            {
-                "final":true,
-                "description":"q1",
-                "transitions":[
-                    {
-                        "input":["a"],
-                        "positionNextState":1
-                    },
-                    {
-                        "input":["b"],
-                        "positionNextState":1
-                    }
-                ]
-            }
-        ]
-    }
-}
-`)
+
+`)//adicione do json dentro das ` aqui ` 
 
 function test(automata,word) {
     
